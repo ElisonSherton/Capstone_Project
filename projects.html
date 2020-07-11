@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- My Stylesheet -->
+    <link rel="stylesheet" href="main.css">
+
+    <title>Projects</title>
+  </head>
+
+  <body>
+  <div class="before-footer">
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light mb-0">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse d-md-flex justify-content-center " id="navbarTogglerDemo03">
+          <ul class="navbar-nav ">
+            <li class="nav-item">
+              <a class="nav-link lead" href="index.html">Home</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link lead" href="projects.html">Projects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link lead" href="interests.html">My Interests</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link lead" href="contact.html">Contact Me</a>
+            </li>
+          </ul> 
+        </div>
+    </nav>
+
+    <!-- Content -->
+    <div class="container mt-2"> 
+        <!-- Project 1 -->
+        <h1>Age Detection of Indian Actors</h1>   
+        <div class="row mb-3">
+
+            <div class="col-sm-12 col-md-5">
+                <img src="https://raw.githubusercontent.com/ElisonSherton/Age_Detection_Of_Indian_Actors/master/IMFDB_Faces.PNG" alt="Project1Image" class="img-responsive border border-dark" width="100%">
+            </div>
+
+            <div class="col-sm-12 col-md-7">
+                
+                <p class="lead text-justify">
+                    &nbsp;&nbsp;&nbsp;&nbsp;This project is infact a practise hackathon on Analytics Vidhya which requires us to tell given a picture of
+                an actor, is he young, middle-aged or old-aged. CNNs and transfer-learning were the methods employed in order to 
+                build this classifier.<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;The base model used was a ResNet-50 model which is pre-trained on the ImageNet challenge data which is meant
+                to classify a million images into a thousand different classes. After training for around 11 epochs, an accuracy 
+                of 88% was recorded on validation data and eventually the same accuracy was obtained on test data as well.<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;The model was constructed and trained using fastai which is built on top of PyTorch and 
+                I stood 23rd in the overall hackathon as on 28th Feb 2020 and you can view the entire code and approach mentioned 
+                in detain at Github <a href="https://github.com/ElisonSherton/Age_Detection_Of_Indian_Actors" target="_blank">here.</a>
+                </p>            
+            </div>
+        </div>
+        <!-- Project 2 -->
+        <h1>Twitter User Analysis and Visualization.</h1>
+        <div class="row mb-3">
+
+            <div class="col-sm-12 col-md-7">
+                
+                <p class="lead text-justify">
+                    &nbsp;&nbsp;&nbsp;&nbsp;This project aims to understand the behavior of a user through their tweets and interaction with other users on a popular social media platform called twitter. I reached out to a friend of mine Shriram Dusane and he nodded his consent for the data to be used for the sake of this analysis.
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;I extracted tweets only until 23rd Jan 2020, starting from when the user created his profile. Also, I have only considered tweets which the user sent out and not retweets.
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;The analyses I have conducted include study of tweet acticity by hour of day, by week of year, most used hashtags in a year and so on. Data was extracted using python and visualized using Tableau. The visualization along with all it's interactive components can be viewed <a href="https://public.tableau.com/profile/elisonsherton#!/vizhome/TwitterUserAnalysis/YearwiseEmojiandTaggedPeople" target="_blank">here.</a>
+                </p>            
+            </div>
+
+            <div class="col-sm-12 col-md-5">
+                <img src="https://raw.githubusercontent.com/ElisonSherton/Twitter-User-Analysis-and-Visualization/master/Yearwise_Hashtags_Dashboard.PNG" alt="Project2Image" class="img-responsive border border-dark" width="100%">
+            </div>
+        </div>
+        
+    </div>
+    </div>
+    <footer class="lead text-center text-white">Coursera Capstone Project.</footer>
+    
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

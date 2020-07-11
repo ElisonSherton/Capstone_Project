@@ -1,0 +1,73 @@
+.before-footer{
+    min-height: 90vh;
+    margin-bottom: 75px;
+}
+
+.before-footer:after{
+    content:"";
+    display: block;
+    height: -75px;
+}
+
+footer{
+    background-color: #218a2f;
+    height: 75px;
+    text-align: center;
+    line-height: 75px;
+}
+
+.fa {
+    padding: 7px;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-github {
+    background: #000000;
+    color: #ffffff;
+}
+
+.fa-linkedin{
+    background: rgb(3, 5, 143);
+    color: #ffffff;
+}
+
+.fa-envelope-o{
+    background-color: white;
+    color: red;
+}
+
+span{
+    background-color: aquamarine;
+}
+
+body{
+    background-color: aquamarine;
+}
+
+div.jumbotron{
+    background-color: rgb(104, 164, 219);
+}
+
+.nav-link {
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: none;
+    opacity: 0.5;
+}
+
+.fa:hover {
+opacity: 0.7;
+}
+
+
+
